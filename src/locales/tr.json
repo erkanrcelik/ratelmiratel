@@ -1,0 +1,373 @@
+{
+  "translation": {
+    "common": {
+      "close": "Kapat"
+    },
+    "nav": {
+      "home": "Ana Sayfa",
+      "about": "Hakkımızda",
+      "services": "Hizmetler",
+      "process": "Süreç",
+      "references": "Referanslar",
+      "contact": "İletişim"
+    },
+    "references": {
+      "title": "REFERANSLAR",
+      "subtitle": "Birlikte yarattığımız başarı hikayeleri",
+      "description": "Her projede aynı tutkuyla çalışıyor, müşterilerimizin hedeflerini gerçekleştirmek için yaratıcı çözümler sunuyoruz."
+    },
+    "hero": {
+      "title": "RATEL AJANS",
+      "subtitle": "Dijital İnovasyon Ajansı",
+      "description": "Dijital dünyada markanızı öne çıkarıyoruz",
+      "pageTitle": "Ratel Ajans | Dijital Dünyada Fark Yaratıyoruz"
+    },
+    "about": {
+      "title": "Hakkımızda",
+      "description": "Ratel Ajans olarak, dijital dünyada markaların başarısı için çalışıyoruz. Yenilikçi çözümler ve yaratıcı stratejilerle işinizi büyütüyoruz.",
+      "mission": "Misyonumuz",
+      "missionText": "Müşterilerimizin dijital dönüşümünü sağlayarak, sürdürülebilir büyüme elde etmelerine yardımcı olmak.",
+      "vision": "Vizyonumuz",
+      "visionText": "Türkiye'nin önde gelen dijital ajansı olmak ve global pazarda tanınan bir marka haline gelmek.",
+      "mainHeading": "En Korkusuz, En Cesur Ajans",
+      "companyName": "Ratel Ajans",
+      "mainDescription": "Her biri kendi alanında uzman ekibimizle hizmet verdiğimiz firmalar için en uygun, en güçlü sosyal medya stratejilerini belirliyor ve markalarımızı en cesur şekilde hedef kitleye ulaştırıyoruz.",
+      "additionalInfo": "Markalarımızı dijital alanda hedef kitleleriyle en doğru şekilde buluşturacak platformlar, ürünler ve kampanyaları, güncel trendler ve tasarım yaklaşımlarını kullanarak sıra dışı fikirlerle oluşturuyoruz.",
+      "discoverStory": "Hikayemizi Keşfet",
+      "honeyBadgerQuote": "Bal Porsukları gibi hiçbir zaman sizi yarı yolda bırakmayız",
+      "stats": {
+        "happyClients": "Mutlu Müşteri",
+        "completedProjects": "Tamamlanan Proje",
+        "yearsExperience": "Yıllık Deneyim",
+        "support": "Destek"
+      }
+    },
+    "services": {
+      "title": "HİZMETLERİMİZ",
+      "subtitle": "Dijital dünyada başarıya ulaşmanız için ihtiyacınız olan her şey",
+      "whatWeDo": "Ne Yapıyoruz?",
+      "serviceScope": "Hizmet Kapsamı",
+      "viewDetailsAndGetQuote": "Detayları İncele & Teklif Al",
+      "getQuote": "Teklif Al",
+      "stats": {
+        "services": "Hizmet",
+        "projects": "Proje",
+        "clients": "Müşteri"
+      },
+      "digitalMarketing": {
+        "title": "Dijital Pazarlama",
+        "subtitle": "Performans & Büyüme",
+        "description": "ROI odaklı dijital pazarlama kampanyaları ile markanızı büyütüyoruz",
+        "details": {
+          "detail1": "Google & Facebook Reklam Yönetimi",
+          "detail2": "SEO & SEM Optimizasyonu",
+          "detail3": "Dönüşüm Oranı Optimizasyonu",
+          "detail4": "E-ticaret Pazarlama Stratejileri"
+        }
+      },
+      "branding": {
+        "title": "Marka & Kimlik",
+        "subtitle": "Marka Tasarımı & Strateji",
+        "description": "Güçlü marka kimliği oluşturup pazarda fark edilmenizi sağlıyoruz",
+        "details": {
+          "detail1": "Logo & Kurumsal Kimlik Tasarımı",
+          "detail2": "Marka Stratejisi & Konumlandırma",
+          "detail3": "Marka Rehberi & Standartları",
+          "detail4": "Ambalaj & Baskı Tasarımı"
+        }
+      },
+      "webMobile": {
+        "title": "Web & Mobil",
+        "subtitle": "Dijital Deneyimler",
+        "description": "Modern, hızlı ve kullanıcı dostu dijital deneyimler tasarlıyoruz",
+        "details": {
+          "detail1": "Responsive Web Sitesi Tasarımı",
+          "detail2": "E-ticaret Platform Geliştirme",
+          "detail3": "Mobil Uygulama Tasarımı",
+          "detail4": "Kullanıcı Arayüzü Tasarımı & Prototipleme"
+        }
+      },
+      "socialMedia": {
+        "title": "Sosyal Medya",
+        "subtitle": "Topluluk & İçerik",
+        "description": "Sosyal medyada güçlü bir topluluk oluşturup markanızı büyütüyoruz",
+        "details": {
+          "detail1": "Sosyal Medya Stratejisi & Yönetimi",
+          "detail2": "İçerik Üretimi & Metin Yazarlığı",
+          "detail3": "Topluluk Yönetimi",
+          "detail4": "İnfluencer Pazarlama Kampanyaları"
+        }
+      },
+      "videoMotion": {
+        "title": "Video & Hareket",
+        "subtitle": "Görsel Hikaye Anlatımı",
+        "description": "Hikayenizi etkileyici video içeriklerle anlatıyoruz",
+        "details": {
+          "detail1": "Kurumsal Film & Reklam Videoları",
+          "detail2": "Hareketli Grafikler & Animasyon",
+          "detail3": "Sosyal Medya Video İçerikleri",
+          "detail4": "3D Modelleme & Görselleştirme"
+        }
+      },
+      "consulting": {
+        "title": "Danışmanlık",
+        "subtitle": "Strateji & Danışmanlık",
+        "description": "Dijital dönüşümde stratejik rehberlik ve danışmanlık hizmeti sunuyoruz",
+        "details": {
+          "detail1": "Dijital Dönüşüm Stratejisi",
+          "detail2": "Pazarlama Stratejisi & Planlama",
+          "detail3": "Marka Konumlandırma & Mesajlaşma",
+          "detail4": "Pazar Araştırması & Analizi"
+        }
+      }
+    },
+    "process": {
+      "title": "Nasıl Çalışıyoruz?",
+      "subtitle": "Sizi başarıya ulaştıran 4 adımlık sürecimiz",
+      "step1": "Keşif & Analiz",
+      "step1Desc": "Projenizi derinlemesine analiz ediyoruz",
+      "step1Details": {
+        "detail1": "Mevcut durumunuzu değerlendiriyoruz",
+        "detail2": "Hedef kitlenizi analiz ediyoruz",
+        "detail3": "Rakip analizi yapıyoruz",
+        "detail4": "Güçlü yanlarınızı belirliyoruz"
+      },
+      "step2": "Strateji & Planlama",
+      "step2Desc": "Hedeflerinize uygun strateji geliştiriyoruz",
+      "step2Details": {
+        "detail1": "Detaylı proje planı oluşturuyoruz",
+        "detail2": "Zaman çizelgesi belirliyoruz",
+        "detail3": "Kaynakları optimize ediyoruz",
+        "detail4": "Risk analizi yapıyoruz"
+      },
+      "step3": "Tasarım & Geliştirme",
+      "step3Desc": "Yaratıcı çözümlerle hayata geçiriyoruz",
+      "step3Details": {
+        "detail1": "Modern tasarım prensipleri uyguluyoruz",
+        "detail2": "Kullanıcı deneyimini optimize ediyoruz",
+        "detail3": "Teknolojik altyapıyı kuruyoruz",
+        "detail4": "Test ve optimizasyon yapıyoruz"
+      },
+      "step4": "Lansman & Optimizasyon",
+      "step4Desc": "Projenizi başarıyla hayata geçiriyoruz",
+      "step4Details": {
+        "detail1": "Projeyi canlıya alıyoruz",
+        "detail2": "Performans takibi yapıyoruz",
+        "detail3": "Sürekli optimizasyon sağlıyoruz",
+        "detail4": "Destek ve bakım hizmeti veriyoruz"
+      }
+    },
+    "contact": {
+      "title": "İletişim",
+      "subtitle": "Cesaret Et, Bize Ulaş!",
+      "description": "Dijital dünyanın en cesur ajansıyla tanışmaya hazır mısın? Yenilikçi ekibimiz seninle çalışmak için sabırsızlanıyor!",
+      "whatsapp": "WhatsApp",
+      "whatsappDesc": "Hemen mesaj gönder",
+      "whatsappButton": "WhatsApp ile Hemen İletişime Geç",
+      "email": "E-posta",
+      "emailDesc": "info@ratelajans.com",
+      "phone": "Telefon",
+      "phoneDesc": "+90 543 979 19 97",
+      "address": "Adres",
+      "addressDesc": "İstanbul, Türkiye",
+      "contactUs": "İletişim",
+      "sendMessage": "Mesaj Gönder",
+      "readyForProject": "Projeniz için hazır mısınız?",
+      "letsStrengthen": "Cesur fikirlerimizle markanızı birlikte güçlendirelim!",
+      "letsStart": "Hemen Başlayalım!"
+    },
+    "footer": {
+      "copyright": "© {{year}} Ratel Ajans. Tüm hakları saklıdır.",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Şartları",
+      "description": "Dijital dünyada markanızı öne çıkarmak için yaratıcı çözümler sunuyoruz. Web tasarım, dijital pazarlama ve teknoloji çözümleriyle işinizi büyütün.",
+      "quickLinks": "Hızlı Linkler"
+    },
+    "common": {
+      "learnMore": "Daha Fazla Bilgi",
+      "getStarted": "Başlayın",
+      "viewAll": "Tümünü Görüntüle",
+      "readMore": "Devamını Oku",
+      "close": "Kapat",
+      "send": "Gönder",
+      "loading": "Yükleniyor...",
+      "language": "Dil"
+    },
+    "company": {
+      "title": "Şirket Açıklaması",
+      "heading": "Dijital dünyada fark yaratıyoruz",
+      "description": "Ratel Ajans olarak, dijital dönüşüm sürecinde markaların yanında yer alıyoruz. Yenilikçi çözümler ve yaratıcı stratejilerle işinizi büyütüyoruz.",
+      "uniqueSellingPoint": "Sıradan ajanslardan farklıyız!",
+      "discoverDigitalWorld": "Dijital Dünyadaki Yerimizi Keşfet",
+      "rotatingWords": {
+        "bold": "Cesur",
+        "creative": "Yaratıcı",
+        "innovative": "İnovatif",
+        "powerful": "Güçlü"
+      },
+      "features": [
+        {
+          "icon": "🚀",
+          "title": "Hızlı Çözümler",
+          "description": "Projelerinizi hızlıca hayata geçiriyoruz"
+        },
+        {
+          "icon": "💡",
+          "title": "Yaratıcı Fikirler",
+          "description": "Sıra dışı ve etkileyici fikirler üretiyoruz"
+        },
+        {
+          "icon": "🎯",
+          "title": "Hedef Odaklı",
+          "description": "Hedef kitlenize ulaşmanızı sağlıyoruz"
+        },
+        {
+          "icon": "🌟",
+          "title": "Kaliteli Hizmet",
+          "description": "En yüksek kalitede hizmet sunuyoruz"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "description": "Ratel Ajans gizlilik politikası - kişisel verilerinizin nasıl toplandığı, kullanıldığı ve korunduğu hakkında bilgi",
+      "lastUpdated": "Son Güncelleme",
+      "backToHome": "Ana Sayfaya Dön",
+      "introduction": {
+        "title": "Giriş",
+        "content": "Ratel Ajans olarak, kişisel verilerinizin gizliliğini korumaya önem veriyoruz. Bu gizlilik politikası, web sitemizi ziyaret ettiğinizde veya hizmetlerimizi kullandığınızda toplanan bilgilerin nasıl kullanıldığını açıklar."
+      },
+      "collectedData": {
+        "title": "Toplanan Bilgiler",
+        "description": "Hizmetlerimizi sağlamak ve web sitemizi iyileştirmek için aşağıdaki bilgileri toplayabiliriz:",
+        "items": {
+          "name": "Ad, soyad ve iletişim bilgileri",
+          "email": "E-posta adresi",
+          "phone": "Telefon numarası",
+          "company": "Şirket adı ve pozisyon",
+          "website": "Web sitesi URL'si",
+          "cookies": "Çerezler ve kullanım verileri"
+        }
+      },
+      "usage": {
+        "title": "Kullanım Amaçları",
+        "description": "Topladığımız bilgileri aşağıdaki amaçlarla kullanırız:",
+        "items": {
+          "communication": "Sizinle iletişim kurmak ve hizmetlerimiz hakkında bilgi vermek",
+          "services": "Hizmetlerimizi sağlamak ve iyileştirmek",
+          "improvement": "Web sitemizi ve hizmetlerimizi geliştirmek",
+          "legal": "Yasal yükümlülüklerimizi yerine getirmek"
+        }
+      },
+      "security": {
+        "title": "Veri Güvenliği",
+        "content": "Kişisel verilerinizi korumak için uygun teknik ve organizasyonel önlemler alıyoruz. Verileriniz güvenli sunucularda saklanır ve yetkisiz erişime karşı korunur."
+      },
+      "cookies": {
+        "title": "Çerezler",
+        "description": "Web sitemizde aşağıdaki çerez türlerini kullanırız:",
+        "items": {
+          "essential": "Temel işlevsellik için gerekli çerezler",
+          "analytics": "Site kullanımını analiz etmek için analitik çerezler",
+          "preferences": "Kullanıcı tercihlerini hatırlamak için çerezler"
+        }
+      },
+      "thirdParty": {
+        "title": "Üçüncü Taraf Hizmetler",
+        "content": "Hizmetlerimizi sağlamak için üçüncü taraf hizmet sağlayıcıları kullanabiliriz. Bu sağlayıcılar kendi gizlilik politikalarına tabidir."
+      },
+      "userRights": {
+        "title": "Kullanıcı Hakları",
+        "description": "KVKK kapsamında aşağıdaki haklara sahipsiniz:",
+        "items": {
+          "access": "Kişisel verilerinize erişim hakkı",
+          "correction": "Yanlış verilerin düzeltilmesi hakkı",
+          "deletion": "Verilerinizin silinmesi hakkı",
+          "portability": "Verilerinizin taşınabilirliği hakkı",
+          "objection": "İşlemeye itiraz etme hakkı"
+        }
+      },
+      "contact": {
+        "title": "İletişim",
+        "description": "Gizlilik politikamızla ilgili sorularınız için bizimle iletişime geçebilirsiniz:"
+      },
+      "changes": {
+        "title": "Değişiklikler",
+        "content": "Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikler olduğunda sizi bilgilendireceğiz."
+      }
+    },
+    "terms": {
+      "title": "Kullanım Şartları",
+      "description": "Ratel Ajans kullanım şartları - hizmetlerimizi kullanırken uymanız gereken koşullar ve şartlar",
+      "lastUpdated": "Son Güncelleme",
+      "backToHome": "Ana Sayfaya Dön",
+      "introduction": {
+        "title": "Giriş",
+        "content": "Bu kullanım şartları, Ratel Ajans'ın web sitesini ziyaret ettiğinizde ve hizmetlerimizi kullandığınızda geçerlidir. Bu şartları kabul ederek hizmetlerimizi kullanmaya devam edebilirsiniz."
+      },
+      "services": {
+        "title": "Hizmet Tanımı",
+        "description": "Ratel Ajans aşağıdaki dijital pazarlama ve tasarım hizmetlerini sunar:",
+        "items": {
+          "webDesign": "Web tasarımı ve geliştirme",
+          "digitalMarketing": "Dijital pazarlama stratejileri",
+          "branding": "Marka kimliği tasarımı",
+          "socialMedia": "Sosyal medya yönetimi",
+          "consulting": "Dijital danışmanlık hizmetleri"
+        }
+      },
+      "userResponsibilities": {
+        "title": "Kullanıcı Sorumlulukları",
+        "description": "Hizmetlerimizi kullanırken aşağıdaki sorumluluklara sahipsiniz:",
+        "items": {
+          "accurateInfo": "Doğru ve güncel bilgi sağlamak",
+          "legalUse": "Hizmetleri yasal amaçlarla kullanmak",
+          "noInterference": "Hizmetlerin çalışmasını engellememek",
+          "compliance": "Bu şartlara uymak"
+        }
+      },
+      "intellectualProperty": {
+        "title": "Fikri Mülkiyet",
+        "content": "Web sitemizdeki tüm içerik, tasarım ve yazılım Ratel Ajans'ın fikri mülkiyetidir. Bu içerikleri izinsiz kullanmak yasaktır."
+      },
+      "privacy": {
+        "title": "Gizlilik",
+        "content": "Kişisel verilerinizin işlenmesi gizlilik politikamızda detaylandırılmıştır. Bu şartları kabul ederek gizlilik politikamızı da kabul etmiş olursunuz."
+      },
+      "liability": {
+        "title": "Sorumluluk Sınırlaması",
+        "content": "Ratel Ajans, hizmetlerimizin kullanımından doğabilecek dolaylı zararlardan sorumlu değildir. Sorumluluğumuz yasal mevzuatla sınırlıdır."
+      },
+      "serviceInterruptions": {
+        "title": "Hizmet Kesintileri",
+        "content": "Teknik bakım, güncelleme veya diğer nedenlerle hizmetlerimizde geçici kesintiler olabilir. Bu durumlar için önceden bilgilendirme yapmaya çalışırız."
+      },
+      "pricing": {
+        "title": "Ücretlendirme",
+        "description": "Hizmetlerimizin ücretlendirmesi ile ilgili:",
+        "items": {
+          "quotes": "Proje bazında özel teklifler sunulur",
+          "payment": "Ödeme koşulları proje sözleşmesinde belirtilir",
+          "changes": "Kapsam değişiklikleri ek ücret gerektirebilir",
+          "taxes": "Tüm fiyatlara KDV dahildir"
+        }
+      },
+      "termination": {
+        "title": "Fesih",
+        "content": "Her iki taraf da uygun bildirim süresi ile bu anlaşmayı feshedebilir. Fesih sonrası yasal yükümlülükler devam eder."
+      },
+      "governingLaw": {
+        "title": "Uygulanacak Hukuk",
+        "content": "Bu kullanım şartları Türkiye Cumhuriyeti hukukuna tabidir. Uyuşmazlıklar İstanbul mahkemelerinde çözülür."
+      },
+      "contact": {
+        "title": "İletişim",
+        "description": "Bu kullanım şartlarıyla ilgili sorularınız için bizimle iletişime geçebilirsiniz:"
+      },
+      "changes": {
+        "title": "Değişiklikler",
+        "content": "Bu kullanım şartlarını zaman zaman güncelleyebiliriz. Önemli değişiklikler olduğunda sizi bilgilendireceğiz."
+      }
+    }
+  }
+}

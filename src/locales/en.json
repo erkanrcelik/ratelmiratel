@@ -1,0 +1,373 @@
+{
+  "translation": {
+    "common": {
+      "close": "Close"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "process": "Process",
+      "references": "References",
+      "contact": "Contact"
+    },
+    "references": {
+      "title": "REFERENCES",
+      "subtitle": "Success stories we created together",
+      "description": "We work with the same passion in every project, offering creative solutions to achieve our clients' goals."
+    },
+    "hero": {
+      "title": "RATEL AGENCY",
+      "subtitle": "Digital Innovation Agency",
+      "description": "We make your brand stand out in the digital world",
+      "pageTitle": "Ratel Agency | Making a Difference in the Digital World"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "As Ratel Agency, we work for the success of brands in the digital world. We grow your business with innovative solutions and creative strategies.",
+      "mission": "Our Mission",
+      "missionText": "To help our clients achieve sustainable growth by enabling their digital transformation.",
+      "vision": "Our Vision",
+      "visionText": "To become Turkey's leading digital agency and establish ourselves as a recognized brand in the global market.",
+      "mainHeading": "The Most Fearless, Most Courageous Agency",
+      "companyName": "Ratel Agency",
+      "mainDescription": "With our team of experts in their respective fields, we determine the most suitable and powerful social media strategies for the companies we serve and reach our brands to the target audience in the most courageous way.",
+      "additionalInfo": "We create platforms, products and campaigns that will bring our brands together with their target audiences in the digital field in the most correct way, using current trends and design approaches with extraordinary ideas.",
+      "discoverStory": "Discover Our Story",
+      "honeyBadgerQuote": "Like Honey Badgers, we never leave you halfway",
+      "stats": {
+        "happyClients": "Happy Clients",
+        "completedProjects": "Completed Projects",
+        "yearsExperience": "Years Experience",
+        "support": "Support"
+      }
+    },
+    "services": {
+      "title": "OUR SERVICES",
+      "subtitle": "Everything you need to succeed in the digital world",
+      "whatWeDo": "What We Do?",
+      "serviceScope": "Service Scope",
+      "viewDetailsAndGetQuote": "View Details & Get Quote",
+      "getQuote": "Get Quote",
+      "stats": {
+        "services": "Services",
+        "projects": "Projects",
+        "clients": "Clients"
+      },
+      "digitalMarketing": {
+        "title": "Digital Marketing",
+        "subtitle": "Performance & Growth",
+        "description": "We grow your brand with ROI-focused digital marketing campaigns",
+        "details": {
+          "detail1": "Google & Facebook Ad Management",
+          "detail2": "SEO & SEM Optimization",
+          "detail3": "Conversion Rate Optimization",
+          "detail4": "E-commerce Marketing Strategies"
+        }
+      },
+      "branding": {
+        "title": "Brand & Identity",
+        "subtitle": "Brand Design & Strategy",
+        "description": "We create strong brand identity and help you stand out in the market",
+        "details": {
+          "detail1": "Logo & Corporate Identity Design",
+          "detail2": "Brand Strategy & Positioning",
+          "detail3": "Brand Guidelines & Standards",
+          "detail4": "Packaging & Print Design"
+        }
+      },
+      "webMobile": {
+        "title": "Web & Mobile",
+        "subtitle": "Digital Experiences",
+        "description": "We design modern, fast and user-friendly digital experiences",
+        "details": {
+          "detail1": "Responsive Website Design",
+          "detail2": "E-commerce Platform Development",
+          "detail3": "Mobile App Design",
+          "detail4": "User Interface Design & Prototyping"
+        }
+      },
+      "socialMedia": {
+        "title": "Social Media",
+        "subtitle": "Community & Content",
+        "description": "We create a strong community on social media and grow your brand",
+        "details": {
+          "detail1": "Social Media Strategy & Management",
+          "detail2": "Content Production & Copywriting",
+          "detail3": "Community Management",
+          "detail4": "Influencer Marketing Campaigns"
+        }
+      },
+      "videoMotion": {
+        "title": "Video & Motion",
+        "subtitle": "Visual Storytelling",
+        "description": "We tell your story with impressive video content",
+        "details": {
+          "detail1": "Corporate Film & Ad Videos",
+          "detail2": "Motion Graphics & Animation",
+          "detail3": "Social Media Video Content",
+          "detail4": "3D Modeling & Visualization"
+        }
+      },
+      "consulting": {
+        "title": "Consulting",
+        "subtitle": "Strategy & Consulting",
+        "description": "We provide strategic guidance and consulting services in digital transformation",
+        "details": {
+          "detail1": "Digital Transformation Strategy",
+          "detail2": "Marketing Strategy & Planning",
+          "detail3": "Brand Positioning & Messaging",
+          "detail4": "Market Research & Analysis"
+        }
+      }
+    },
+    "process": {
+      "title": "How We Work?",
+      "subtitle": "Our 4-step process that leads you to success",
+      "step1": "Discovery & Analysis",
+      "step1Desc": "We analyze your project in depth",
+      "step1Details": {
+        "detail1": "We evaluate your current situation",
+        "detail2": "We analyze your target audience",
+        "detail3": "We conduct competitor analysis",
+        "detail4": "We identify your strengths"
+      },
+      "step2": "Strategy & Planning",
+      "step2Desc": "We develop strategies suitable for your goals",
+      "step2Details": {
+        "detail1": "We create detailed project plans",
+        "detail2": "We determine timelines",
+        "detail3": "We optimize resources",
+        "detail4": "We conduct risk analysis"
+      },
+      "step3": "Design & Development",
+      "step3Desc": "We bring to life with creative solutions",
+      "step3Details": {
+        "detail1": "We apply modern design principles",
+        "detail2": "We optimize user experience",
+        "detail3": "We establish technological infrastructure",
+        "detail4": "We perform testing and optimization"
+      },
+      "step4": "Launch & Optimization",
+      "step4Desc": "We successfully bring your project to life",
+      "step4Details": {
+        "detail1": "We go live with the project",
+        "detail2": "We perform performance monitoring",
+        "detail3": "We provide continuous optimization",
+        "detail4": "We provide support and maintenance services"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Dare to Reach Us!",
+      "description": "Ready to meet the most courageous agency in the digital world? Our innovative team can't wait to work with you!",
+      "whatsapp": "WhatsApp",
+      "whatsappDesc": "Send message now",
+      "whatsappButton": "Get in Touch via WhatsApp Now",
+      "email": "Email",
+      "emailDesc": "info@ratelajans.com",
+      "phone": "Phone",
+      "phoneDesc": "+90 543 979 19 97",
+      "address": "Address",
+      "addressDesc": "Istanbul, Turkey",
+      "contactUs": "Contact",
+      "sendMessage": "Send Message",
+      "readyForProject": "Ready for your project?",
+      "letsStrengthen": "Let's strengthen your brand together with our bold ideas!",
+      "letsStart": "Let's Start Now!"
+    },
+    "footer": {
+      "copyright": "© {{year}} Ratel Agency. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "description": "We offer creative solutions to make your brand stand out in the digital world. Grow your business with web design, digital marketing and technology solutions.",
+      "quickLinks": "Quick Links"
+    },
+    "common": {
+      "learnMore": "Learn More",
+      "getStarted": "Get Started",
+      "viewAll": "View All",
+      "readMore": "Read More",
+      "close": "Close",
+      "send": "Send",
+      "loading": "Loading...",
+      "language": "Language"
+    },
+    "company": {
+      "title": "Company Description",
+      "heading": "We make a difference in the digital world",
+      "description": "As Ratel Agency, we stand by brands in their digital transformation process. We grow your business with innovative solutions and creative strategies.",
+      "uniqueSellingPoint": "We are different from ordinary agencies!",
+      "discoverDigitalWorld": "Discover Our Place in the Digital World",
+      "rotatingWords": {
+        "bold": "Bold",
+        "creative": "Creative",
+        "innovative": "Innovative",
+        "powerful": "Powerful"
+      },
+      "features": [
+        {
+          "icon": "🚀",
+          "title": "Fast Solutions",
+          "description": "We quickly bring your projects to life"
+        },
+        {
+          "icon": "💡",
+          "title": "Creative Ideas",
+          "description": "We produce extraordinary and impressive ideas"
+        },
+        {
+          "icon": "🎯",
+          "title": "Target Focused",
+          "description": "We help you reach your target audience"
+        },
+        {
+          "icon": "🌟",
+          "title": "Quality Service",
+          "description": "We provide the highest quality service"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Ratel Agency privacy policy - information about how your personal data is collected, used and protected",
+      "lastUpdated": "Last Updated",
+      "backToHome": "Back to Home",
+      "introduction": {
+        "title": "Introduction",
+        "content": "At Ratel Agency, we value the privacy of your personal data. This privacy policy explains how information collected when you visit our website or use our services is used."
+      },
+      "collectedData": {
+        "title": "Collected Information",
+        "description": "To provide our services and improve our website, we may collect the following information:",
+        "items": {
+          "name": "Name, surname and contact information",
+          "email": "Email address",
+          "phone": "Phone number",
+          "company": "Company name and position",
+          "website": "Website URL",
+          "cookies": "Cookies and usage data"
+        }
+      },
+      "usage": {
+        "title": "Usage Purposes",
+        "description": "We use the information we collect for the following purposes:",
+        "items": {
+          "communication": "To communicate with you and provide information about our services",
+          "services": "To provide and improve our services",
+          "improvement": "To improve our website and services",
+          "legal": "To fulfill our legal obligations"
+        }
+      },
+      "security": {
+        "title": "Data Security",
+        "content": "We implement appropriate technical and organizational measures to protect your personal data. Your data is stored on secure servers and protected against unauthorized access."
+      },
+      "cookies": {
+        "title": "Cookies",
+        "description": "We use the following types of cookies on our website:",
+        "items": {
+          "essential": "Essential cookies for basic functionality",
+          "analytics": "Analytics cookies to analyze site usage",
+          "preferences": "Cookies to remember user preferences"
+        }
+      },
+      "thirdParty": {
+        "title": "Third Party Services",
+        "content": "We may use third party service providers to provide our services. These providers are subject to their own privacy policies."
+      },
+      "userRights": {
+        "title": "User Rights",
+        "description": "Under GDPR, you have the following rights:",
+        "items": {
+          "access": "Right to access your personal data",
+          "correction": "Right to correct inaccurate data",
+          "deletion": "Right to delete your data",
+          "portability": "Right to data portability",
+          "objection": "Right to object to processing"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "description": "For questions about our privacy policy, you can contact us:"
+      },
+      "changes": {
+        "title": "Changes",
+        "content": "We may update this privacy policy from time to time. We will notify you of any significant changes."
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "description": "Ratel Agency terms of service - conditions and terms you must follow when using our services",
+      "lastUpdated": "Last Updated",
+      "backToHome": "Back to Home",
+      "introduction": {
+        "title": "Introduction",
+        "content": "These terms of service apply when you visit Ratel Agency's website and use our services. By accepting these terms, you can continue to use our services."
+      },
+      "services": {
+        "title": "Service Definition",
+        "description": "Ratel Agency provides the following digital marketing and design services:",
+        "items": {
+          "webDesign": "Web design and development",
+          "digitalMarketing": "Digital marketing strategies",
+          "branding": "Brand identity design",
+          "socialMedia": "Social media management",
+          "consulting": "Digital consulting services"
+        }
+      },
+      "userResponsibilities": {
+        "title": "User Responsibilities",
+        "description": "When using our services, you have the following responsibilities:",
+        "items": {
+          "accurateInfo": "To provide accurate and up-to-date information",
+          "legalUse": "To use services for legal purposes",
+          "noInterference": "Not to interfere with the operation of services",
+          "compliance": "To comply with these terms"
+        }
+      },
+      "intellectualProperty": {
+        "title": "Intellectual Property",
+        "content": "All content, design and software on our website is the intellectual property of Ratel Agency. Unauthorized use of this content is prohibited."
+      },
+      "privacy": {
+        "title": "Privacy",
+        "content": "The processing of your personal data is detailed in our privacy policy. By accepting these terms, you also accept our privacy policy."
+      },
+      "liability": {
+        "title": "Liability Limitation",
+        "content": "Ratel Agency is not responsible for indirect damages that may arise from the use of our services. Our liability is limited by law."
+      },
+      "serviceInterruptions": {
+        "title": "Service Interruptions",
+        "content": "There may be temporary interruptions in our services due to technical maintenance, updates or other reasons. We try to provide advance notice for such situations."
+      },
+      "pricing": {
+        "title": "Pricing",
+        "description": "Regarding the pricing of our services:",
+        "items": {
+          "quotes": "Special quotes are provided on a project basis",
+          "payment": "Payment terms are specified in the project contract",
+          "changes": "Scope changes may require additional fees",
+          "taxes": "All prices include VAT"
+        }
+      },
+      "termination": {
+        "title": "Termination",
+        "content": "Either party may terminate this agreement with appropriate notice. Legal obligations continue after termination."
+      },
+      "governingLaw": {
+        "title": "Governing Law",
+        "content": "These terms of service are subject to the laws of the Republic of Turkey. Disputes are resolved in Istanbul courts."
+      },
+      "contact": {
+        "title": "Contact",
+        "description": "For questions about these terms of service, you can contact us:"
+      },
+      "changes": {
+        "title": "Changes",
+        "content": "We may update these terms of service from time to time. We will notify you of any significant changes."
+      }
+    }
+  }
+}
