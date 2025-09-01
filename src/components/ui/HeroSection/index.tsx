@@ -4,7 +4,7 @@ import LightRays from '../Bits/BackgorundCard';
 
 const HeroSection = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <div className="relative min-h-screen flex items-center justify-center overflow-hidden z-[5]">
       {/* LightRays Background Animation */}
       <div className="absolute inset-0 w-full h-full">
         <LightRays
