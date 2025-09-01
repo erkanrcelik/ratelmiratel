@@ -17,7 +17,7 @@ const ContactSection: React.FC = () => {
         ? "Merhaba! Ajans Ratel hizmetleri hakkında bilgi almak istiyorum."
         : "Hello! I would like to get information about Ratel Agency services."
     },
-    email: "info@ratelajans.com",
+    email: "ratelajans@gmail.com",
     phone: "+90 543 979 19 97",
     address: t('contact.addressDesc')
   };

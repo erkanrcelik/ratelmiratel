@@ -20,7 +20,24 @@ function App() {
   useSEO({
     title: t('hero.pageTitle'),
     description: t('hero.description'),
-    keywords: 'dijital ajans, web tasarım, dijital pazarlama, marka kimliği, sosyal medya, SEO, İstanbul',
+    keywords: '' +
+        'Ratel Ajans' +
+        'Sosyal Medya Ajansı' +
+        'Dijital Ajans' +
+        'Web Tasarım' +
+        'Dijital Pazarlama' +
+        'Marka Kimliği' +
+        'Sosyal Medya' +
+        'SEO' +
+        'Bursa Sosyal Medya' +
+        'Bursa Sosyal Medya Yönetimi' +
+        'İstanbul Sosyal Medya' +
+        'İstanbul Sosyal Medya Yönetimi' +
+        'İnstagram Yönetimi' +
+        'Ajans' +
+        'Reklam Ajansı' +
+        'Sosyal Medya Yönetimi' +
+        'Bursa Dijital Ajans',
     image: '/logo-beyaz.png',
     url: window.location.href,
     type: 'website'

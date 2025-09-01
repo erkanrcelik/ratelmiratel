@@ -140,8 +140,8 @@ const LogoShowcase: React.FC = () => {
                   <RatelLogo width={160} height={60} variant="full" animated={false} />
                 </div>
                 <div className="text-center text-gray-800 text-sm space-y-2">
-                  <p>İstanbul, Türkiye</p>
-                  <p>info@ratelajans.com</p>
+                  <p>Bursa, Türkiye</p>
+                  <p>ratelajans@gmail.com</p>
                   <p>www.ratelajans.com</p>
                 </div>
               </div>

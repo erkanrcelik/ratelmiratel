@@ -26,7 +26,7 @@ const REFERENCES = [
     link: 'https://agentedarik.com/'
   },
   {
-    image: '/ref_5.jpg',
+    image: '/ciftyildiz.jpg',
     text: 'Çiftyıldız Marble Group',
     link: 'https://ciftyildiz.com.tr/'
   },
@@ -56,7 +56,7 @@ const REFERENCES = [
     link: 'https://metayard.com.tr/'
   },
   {
-    image: '/ref_11.jpg',
+    image: '/ref111.jpg',
     text: 'Este Valeria Güzellik Salonu',
     link: 'https://www.instagram.com/valeriaguzelliksalonuu'
   },

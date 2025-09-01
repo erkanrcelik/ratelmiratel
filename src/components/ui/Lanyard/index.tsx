@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unknown-property */
 import { useEffect, useRef, useState } from "react";
 import { Canvas, extend, useFrame } from "@react-three/fiber";
 import {
@@ -21,8 +20,8 @@ import * as THREE from "three";
 
 // replace with your own imports, see the usage snippet for details
 import cardGLB from "./card.glb";
-import lanyard from "./lanyard.png";
-import balPorsukImg from "/porsuk.png";
+import lanyard from "./lanyardtest.jpeg";
+import balPorsukImg from "./porsuk.png";
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 
@@ -34,57 +33,57 @@ interface LanyardProps {
 }
 
 export default function Lanyard({
-  position = [5, 0, 25],
-  gravity = [0, -40, 0],
-  fov = 20,
-  transparent = true,
-}: LanyardProps) {
+                                  position = [5, 0, 25],
+                                  gravity = [0, -40, 0],
+                                  fov = 20,
+                                  transparent = true,
+                                }: LanyardProps) {
 
   return (
-    <div className="relative z-0 w-full h-screen flex justify-center items-center transform scale-100 origin-center">
-      <Canvas
-        camera={{ position, fov }}
-        gl={{ alpha: transparent }}
-        onCreated={({ gl }) =>
-          gl.setClearColor(new THREE.Color(0x000000), transparent ? 0 : 1)
-        }
-      >
-        <ambientLight intensity={Math.PI} />
-        <Physics gravity={gravity} timeStep={1 / 60}>
-          <Band />
-        </Physics>
-        <Environment blur={0.75}>
-          <Lightformer
-            intensity={2}
-            color="white"
-            position={[0, -1, 5]}
-            rotation={[0, 0, Math.PI / 3]}
-            scale={[100, 0.1, 1]}
-          />
-          <Lightformer
-            intensity={3}
-            color="white"
-            position={[-1, -1, 1]}
-            rotation={[0, 0, Math.PI / 3]}
-            scale={[100, 0.1, 1]}
-          />
-          <Lightformer
-            intensity={3}
-            color="white"
-            position={[1, 1, 1]}
-            rotation={[0, 0, Math.PI / 3]}
-            scale={[100, 0.1, 1]}
-          />
-          <Lightformer
-            intensity={10}
-            color="white"
-            position={[-10, 0, 14]}
-            rotation={[0, Math.PI / 2, Math.PI / 3]}
-            scale={[100, 10, 1]}
-          />
-        </Environment>
-      </Canvas>
-    </div>
+      <div className="relative z-0 w-full h-screen flex justify-center items-center transform scale-100 origin-center">
+        <Canvas
+            camera={{ position, fov }}
+            gl={{ alpha: transparent }}
+            onCreated={({ gl }) =>
+                gl.setClearColor(new THREE.Color(0x000000), transparent ? 0 : 1)
+            }
+        >
+          <ambientLight intensity={Math.PI} />
+          <Physics gravity={gravity} timeStep={1 / 60}>
+            <Band />
+          </Physics>
+          <Environment blur={0.75}>
+            <Lightformer
+                intensity={2}
+                color="white"
+                position={[0, -1, 5]}
+                rotation={[0, 0, Math.PI / 3]}
+                scale={[100, 0.1, 1]}
+            />
+            <Lightformer
+                intensity={3}
+                color="white"
+                position={[-1, -1, 1]}
+                rotation={[0, 0, Math.PI / 3]}
+                scale={[100, 0.1, 1]}
+            />
+            <Lightformer
+                intensity={3}
+                color="white"
+                position={[1, 1, 1]}
+                rotation={[0, 0, Math.PI / 3]}
+                scale={[100, 0.1, 1]}
+            />
+            <Lightformer
+                intensity={10}
+                color="white"
+                position={[-10, 0, 14]}
+                rotation={[0, Math.PI / 2, Math.PI / 3]}
+                scale={[100, 10, 1]}
+            />
+          </Environment>
+        </Canvas>
+      </div>
   );
 }
 
@@ -135,32 +134,32 @@ function Band({ maxSpeed = 50, minSpeed = 0 }: BandProps) {
       canvas.width = 512;
       canvas.height = 640;
       const ctx = canvas.getContext('2d');
-      
+
       if (!ctx) {
         console.error('Could not get canvas context');
         return null;
       }
-      
+
       // Test - simple background first
       ctx.fillStyle = '#444444';
       ctx.fillRect(0, 0, 512, 640);
-      
+
       // Simple white text for testing
       ctx.fillStyle = '#ffffff';
       ctx.font = 'bold 40px Arial';
       ctx.textAlign = 'center';
       ctx.fillText('@bal_porsuk', 256, 100);
-      
+
       ctx.font = '30px Arial';
       ctx.fillText('Ajans Ratel', 256, 150);
-      
+
       ctx.font = '20px Arial';
       ctx.textAlign = 'left';
       ctx.fillText('Email: info@ajansratel.com', 50, 220);
       ctx.fillText('Tel: +90 555 123 45 67', 50, 260);
       ctx.fillText('Web: ajansratel.com', 50, 300);
       ctx.fillText('Adres: Istanbul, Turkiye', 50, 340);
-      
+
       // WhatsApp button
       ctx.fillStyle = '#25D366';
       ctx.fillRect(50, 400, 412, 60);
@@ -168,7 +167,7 @@ function Band({ maxSpeed = 50, minSpeed = 0 }: BandProps) {
       ctx.font = 'bold 24px Arial';
       ctx.textAlign = 'center';
       ctx.fillText('WhatsApp', 256, 440);
-      
+
       const texture = new THREE.CanvasTexture(canvas);
       texture.flipY = false;
       texture.needsUpdate = true;
@@ -192,17 +191,17 @@ function Band({ maxSpeed = 50, minSpeed = 0 }: BandProps) {
         console.error('Failed to create contact texture');
       }
     }, 100);
-    
+
     return () => clearTimeout(timer);
   }, []);
   const [curve] = useState(
-    () =>
-      new THREE.CatmullRomCurve3([
-        new THREE.Vector3(),
-        new THREE.Vector3(),
-        new THREE.Vector3(),
-        new THREE.Vector3(),
-      ])
+      () =>
+          new THREE.CatmullRomCurve3([
+            new THREE.Vector3(),
+            new THREE.Vector3(),
+            new THREE.Vector3(),
+            new THREE.Vector3(),
+          ])
   );
   const [dragged, drag] = useState<false | THREE.Vector3>(false);
   const [hovered, hover] = useState(false);
@@ -265,15 +264,15 @@ function Band({ maxSpeed = 50, minSpeed = 0 }: BandProps) {
       [j1, j2].forEach((ref) => {
         if (!ref.current.lerped)
           ref.current.lerped = new THREE.Vector3().copy(
-            ref.current.translation()
+              ref.current.translation()
           );
         const clampedDistance = Math.max(
-          0.1,
-          Math.min(1, ref.current.lerped.distanceTo(ref.current.translation()))
+            0.1,
+            Math.min(1, ref.current.lerped.distanceTo(ref.current.translation()))
         );
         ref.current.lerped.lerp(
-          ref.current.translation(),
-          delta * (minSpeed + clampedDistance * (maxSpeed - minSpeed))
+            ref.current.translation(),
+            delta * (minSpeed + clampedDistance * (maxSpeed - minSpeed))
         );
       });
       curve.points[0].copy(j3.current.translation());
@@ -291,105 +290,107 @@ function Band({ maxSpeed = 50, minSpeed = 0 }: BandProps) {
   texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
 
   return (
-    <>
-      <group position={[4, 4, 0]}>
-        <RigidBody
-          ref={fixed}
-          {...segmentProps}
-          type={"fixed" as RigidBodyProps["type"]}
-        />
-        <RigidBody
-          position={[0.5, 0, 0]}
-          ref={j1}
-          {...segmentProps}
-          type={"dynamic" as RigidBodyProps["type"]}
-        >
-          <BallCollider args={[0.1]} />
-        </RigidBody>
-        <RigidBody
-          position={[1, 0, 0]}
-          ref={j2}
-          {...segmentProps}
-          type={"dynamic" as RigidBodyProps["type"]}
-        >
-          <BallCollider args={[0.1]} />
-        </RigidBody>
-        <RigidBody
-          position={[1.5, 0, 0]}
-          ref={j3}
-          {...segmentProps}
-          type={"dynamic" as RigidBodyProps["type"]}
-        >
-          <BallCollider args={[0.1]} />
-        </RigidBody>
-        <RigidBody
-          position={[2, 0, 0]}
-          ref={card}
-          {...segmentProps}
-          type={
-            dragged
-              ? ("kinematicPosition" as RigidBodyProps["type"])
-              : ("dynamic" as RigidBodyProps["type"])
-          }
-        >
-          <CuboidCollider args={[0.8, 1.125, 0.01]} />
-          <group
-            scale={2.25}
-            position={[0, -1.2, -0.05]}
-            rotation={[0, cardRotation, 0]}
-            onPointerOver={() => hover(true)}
-            onPointerOut={() => hover(false)}
-            onPointerUp={(e: any) => {
-              e.target.releasePointerCapture(e.pointerId);
-              drag(false);
-            }}
-            onPointerDown={(e: any) => {
-              e.target.setPointerCapture(e.pointerId);
-              drag(
-                new THREE.Vector3()
-                  .copy(e.point)
-                  .sub(vec.copy(card.current.translation()))
-              );
-            }}
-            onClick={(e: any) => {
-              if (!dragged) {
-                e.stopPropagation();
-                setIsFlipped(!isFlipped);
-              }
-            }}
+      <>
+        <group position={[4, 4, 0]}>
+          <RigidBody
+              ref={fixed}
+              {...segmentProps}
+              type={"fixed" as RigidBodyProps["type"]}
+          />
+          <RigidBody
+              position={[0.5, 0, 0]}
+              ref={j1}
+              {...segmentProps}
+              type={"dynamic" as RigidBodyProps["type"]}
           >
-            <mesh geometry={nodes.card.geometry}>
-              <meshPhysicalMaterial
-                map={isFlipped && contactTexture ? contactTexture : (balPorsukTexture || null)}
-                map-anisotropy={16}
-                clearcoat={1}
-                clearcoatRoughness={0.15}
-                roughness={0.9}
-                metalness={0.8}
-                color={isFlipped && contactTexture ? "white" : balPorsukTexture ? "white" : "gray"}
+            <BallCollider args={[0.1]} />
+          </RigidBody>
+          <RigidBody
+              position={[1, 0, 0]}
+              ref={j2}
+              {...segmentProps}
+              type={"dynamic" as RigidBodyProps["type"]}
+          >
+            <BallCollider args={[0.1]} />
+          </RigidBody>
+          <RigidBody
+              position={[1.5, 0, 0]}
+              ref={j3}
+              {...segmentProps}
+              type={"dynamic" as RigidBodyProps["type"]}
+          >
+            <BallCollider args={[0.1]} />
+          </RigidBody>
+          <RigidBody
+              position={[2, 0, 0]}
+              ref={card}
+              {...segmentProps}
+              type={
+                dragged
+                    ? ("kinematicPosition" as RigidBodyProps["type"])
+                    : ("dynamic" as RigidBodyProps["type"])
+              }
+          >
+            {/* CuboidCollider args'ları 120x150 (0.8 en boy oranı) için ayarlandı */}
+            <CuboidCollider args={[0.9, 1.125, 0.01]} />
+            <group
+                // Kartın görsel en boy oranını 120x150 (0.8) ile eşleştirmek için ölçek ayarlandı
+                scale={[1.8, 2.25, 2.25]}
+                position={[0, -1.2, -0.05]}
+                rotation={[0, cardRotation, 0]}
+                onPointerOver={() => hover(true)}
+                onPointerOut={() => hover(false)}
+                onPointerUp={(e: any) => {
+                  e.target.releasePointerCapture(e.pointerId);
+                  drag(false);
+                }}
+                onPointerDown={(e: any) => {
+                  e.target.setPointerCapture(e.pointerId);
+                  drag(
+                      new THREE.Vector3()
+                          .copy(e.point)
+                          .sub(vec.copy(card.current.translation()))
+                  );
+                }}
+                onClick={(e: any) => {
+                  if (!dragged) {
+                    e.stopPropagation();
+                    setIsFlipped(!isFlipped);
+                  }
+                }}
+            >
+              <mesh geometry={nodes.card.geometry}>
+                <meshPhysicalMaterial
+                    map={isFlipped && contactTexture ? contactTexture : (balPorsukTexture || null)}
+                    map-anisotropy={16}
+                    clearcoat={1}
+                    clearcoatRoughness={0.15}
+                    roughness={0.9}
+                    metalness={0.8}
+                    color={isFlipped && contactTexture ? "white" : balPorsukTexture ? "white" : "gray"}
+                />
+              </mesh>
+              <mesh
+                  geometry={nodes.clip.geometry}
+                  material={materials.metal}
+                  material-roughness={0.3}
               />
-            </mesh>
-            <mesh
-              geometry={nodes.clip.geometry}
-              material={materials.metal}
-              material-roughness={0.3}
-            />
-            <mesh geometry={nodes.clamp.geometry} material={materials.metal} />
-          </group>
-        </RigidBody>
-      </group>
-      <mesh ref={band}>
-        <meshLineGeometry />
-        <meshLineMaterial
-          color="white"
-          depthTest={false}
-          resolution={isSmall ? [1000, 2000] : [1000, 1000]}
-          useMap
-          map={texture}
-          repeat={[-4, 1]}
-          lineWidth={1}
-        />
-      </mesh>
-    </>
+              <mesh geometry={nodes.clamp.geometry} material={materials.metal} />
+            </group>
+          </RigidBody>
+        </group>
+        <mesh ref={band}>
+          <meshLineGeometry />
+          <meshLineMaterial
+              color="white"
+              depthTest={false}
+              resolution={isSmall ? [1000, 2000] : [1000, 1000]}
+              useMap
+              map={texture}
+              repeat={[-4, 1]}
+              lineWidth={1}
+          />
+        </mesh>
+      </>
   );
 }

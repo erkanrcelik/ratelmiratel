@@ -35,17 +35,17 @@ const ServicesListSection: React.FC = () => {
   const services = [
     {
       id: '01',
-      title: t('services.digitalMarketing.title'),
-      subtitle: t('services.digitalMarketing.subtitle'),
-      description: t('services.digitalMarketing.description'),
+      title: t('services.socialMedia.title'),
+      subtitle: t('services.socialMedia.subtitle'),
+      description: t('services.socialMedia.description'),
       details: [
-        t('services.digitalMarketing.details.detail1'),
-        t('services.digitalMarketing.details.detail2'),
-        t('services.digitalMarketing.details.detail3'),
-        t('services.digitalMarketing.details.detail4')
+        t('services.socialMedia.details.detail1'),
+        t('services.socialMedia.details.detail2'),
+        t('services.socialMedia.details.detail3'),
+        t('services.socialMedia.details.detail4')
       ],
       color: '#0b6e99',
-      bgGradient: 'from-[#0b6e99]/10 to-[#0894d1]/10'
+      bgGradient: 'from-[#0b6e99]/10 to-[#0c80b3]/10'
     },
     {
       id: '02',
@@ -63,6 +63,20 @@ const ServicesListSection: React.FC = () => {
     },
     {
       id: '03',
+      title: t('services.digitalMarketing.title'),
+      subtitle: t('services.digitalMarketing.subtitle'),
+      description: t('services.digitalMarketing.description'),
+      details: [
+        t('services.digitalMarketing.details.detail1'),
+        t('services.digitalMarketing.details.detail2'),
+        t('services.digitalMarketing.details.detail3'),
+        t('services.digitalMarketing.details.detail4')
+      ],
+      color: '#0b6e99',
+      bgGradient: 'from-[#0b6e99]/10 to-[#0894d1]/10'
+    },
+    {
+      id: '04',
       title: t('services.webMobile.title'),
       subtitle: t('services.webMobile.subtitle'),
       description: t('services.webMobile.description'),
@@ -75,20 +89,7 @@ const ServicesListSection: React.FC = () => {
       color: '#0894d1',
       bgGradient: 'from-[#0894d1]/10 to-[#0b6e99]/10'
     },
-    {
-      id: '04',
-      title: t('services.socialMedia.title'),
-      subtitle: t('services.socialMedia.subtitle'),
-      description: t('services.socialMedia.description'),
-      details: [
-        t('services.socialMedia.details.detail1'),
-        t('services.socialMedia.details.detail2'),
-        t('services.socialMedia.details.detail3'),
-        t('services.socialMedia.details.detail4')
-      ],
-      color: '#0b6e99',
-      bgGradient: 'from-[#0b6e99]/10 to-[#0c80b3]/10'
-    },
+
     {
       id: '05',
       title: t('services.videoMotion.title'),

@@ -113,9 +113,9 @@ const PrivacyPolicyModal: React.FC = () => {
         <div className="bg-gray-800/50 p-6 rounded-lg">
           <p className="text-gray-300">
             <strong>Ratel Ajans</strong><br />
-            E-posta: info@ratelajans.com<br />
+            E-posta: ratelajans@gmail.com<br />
             Telefon: +90 543 979 19 97<br />
-            Adres: İstanbul, Türkiye
+            Adres: Bursa, Türkiye
           </p>
         </div>
       </section>
