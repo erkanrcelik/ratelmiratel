@@ -185,8 +185,8 @@ const Header = () => {
       </header>
 
       {/* Lanyard - Fixed position for entire page */}
-      <div className="fixed top-0 right-0 z-[20] w-full h-full">
-        <div className="absolute inset-y-0 right-0 w-full">
+      <div className="fixed top-0 left-30 z-[9] w-full h-full">
+        <div className="absolute inset-y-0 left-30 w-full">
           <div className="ml-auto h-full max-w-full">
             <Lanyard gravity={[0, -40, 0]}  />
           </div>
